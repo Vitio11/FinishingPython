@@ -20,6 +20,11 @@ Deberá completar su programa en Python para que cumpla con las siguientes condi
 
 # Ejercicios con Flask
 
+### Es necesario instalar Flask
+
+ - ```pip install flask``` -> En Windows
+ - ```pip3 install flask``` -> En MacOS
+
 1) Mostrar una página que ponga 6 opciones: (1)
 
 ​		Elegir para las 6 opciones 6 de los 20 ejercicios (DNI, Salario, Par o Impar, Celsius, etc)
@@ -34,4 +39,3 @@ Deberá completar su programa en Python para que cumpla con las siguientes condi
  - ```https://github.com/Vitio11```
  - ```https://github.com/miguelbemon```
 
- 
