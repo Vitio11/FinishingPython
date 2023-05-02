@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicios</title>
+</head>
+<body>
+    <h1>Ejercicios</h1>
+    <ul>
+        {% for ejercicio in ejercicios %}
+            <li><a href="/ejercicio/{{ ejercicio.id }}">{{ ejercicio.nombre }}</a> - {{ ejercicio.descripcion }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
