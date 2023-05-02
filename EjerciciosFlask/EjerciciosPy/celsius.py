@@ -1,9 +1,11 @@
-def celsius(celsius):
+#Cambiar de grados celsius a farenheit
+def principal(grados):   
     try:
-        celsius = int(celsius)
-        fahrenheit = (celsius*1.8) + 32
-        
-        return f"{celsius}º Celsius son {fahrenheit}º Fahrenheit"
-        
-    except:
-        return "Error, introduce un valor correcto"
+            entero=int(grados)
+    except ValueError:
+            print("El numero debe ser un entero")
+    resultado= float(grados) * (9/5) +32
+    return resultado
+if __name__ == "__main__":
+       principal()
+       

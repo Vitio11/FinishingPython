@@ -1,11 +1,14 @@
-def parImpar(numero):
+#Dado un numero entero, determinar si es par o impar
+def principal(parimpar):
     try:
+            entero=int(parimpar)
+    except ValueError:
+            return("El numero debe ser entero")
 
-        num = int(numero)
-        if num % 2 == 0:
-            return f" El número {num} es par"
-        else:
-            return f" El número {num} es impar"
-        
-    except:
-        return "Error, introduce un número"
+
+    if(int(parimpar)%2!=0):
+        return "El numero es impar"
+    else:
+        return "El numero es par"
+if __name__ == '__main__':
+   principal()
