@@ -6,18 +6,11 @@ Elegir uno de los ejercicios de ficheros y utilizar en cambio de ficheros la BBD
 
 ### 1 - Lista de hombres y mujeres
 
-### 2 - Lista de personas para por edades.
-### 3 - Lista de Personas
-### 4 - Temperatura mensual de 20 ciudades
+### Ejecución
 
-## Condiciones:
-
-Deberá completar su programa en Python para que cumpla con las siguientes condiciones:
-
-- Mostrar una opción para generar los datos de forma aleatoria y almacenarlo en la BBDD.
-- Mostrar una opción para recuperar los datos de la BBDD (si existe) o generarlos de nuevo y almacenarlos en la BBDD.
-- Realice la opción para que el resultado de las opciones estadísticas se puedan guardar en la BBDD.
-
+ - ```py BBDD.py```  -> En Windows
+ - ```py3 BBDD.py``` -> En MacOS
+ 
 # Ejercicios con Flask
 
 ### Es necesario instalar Flask
