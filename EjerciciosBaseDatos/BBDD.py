@@ -80,30 +80,3 @@ if __name__ == '__main__':
         else:
             print('Invalid selection, try again')
         follow=input("Pres any key to continue...")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-def GenerarListaGenero(self): #para crear la lista random de hombres y mujeres
-        print('Creando lista...')
-        for x in range(1,101):
-            generarGenero= random.randint(0,1)
-            if generarGenero==0:
-                self.ListaHM.append("H")
-            else:
-                self.ListaHM.append("M")
-        print('Lista creada satisfactoriamente.')
-        print('Creando fichero...')
-        self.CreacionFichero()
